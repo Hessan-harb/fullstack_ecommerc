@@ -1,0 +1,100 @@
+<div className="container m-3 flow-root -my-6 divide-y divide-gray-200 bg-white flex flex-col items-center p-8 box-sizing-border">
+    <div className=" bg-[#FFFFFF] flex flex-col items-center p-[32px_16px_32px_16px] box-sizing-border">
+       {cart.map((product) => (
+
+      <div key={product.id} className="m-[0_0_33px_0] flex flex-col w-[fit-content] box-sizing-border">
+        <p className="m-[0_0.4px_32px_0.4px] self-start break-words font-['Raleway'] font-medium text-[16px] leading-[1.6] text-[#1D1F22]">
+          <span className="my-bag-3-items-sub-5"></span><span className="my-bag-3-items-sub-4"></span><span className="my-bag-3-items-sub-0"></span><span></span>
+        </p>
+        <div className="m-[0_0_32px_0] flex flex-col items-center w-[fit-content] box-sizing-border">
+          
+          <div className="flex flex-row w-[fit-content] box-sizing-border">
+            <div className="m-[0_8px_0_0] flex flex-row box-sizing-border">
+              <div className="m-[0_72px_0_0] flex flex-col items-center box-sizing-border">
+                <div className="m-[0_1.6px_8px_0] flex flex-col items-center w-[fit-content] box-sizing-border">
+                  <div className="m-[0_0_4px_0] inline-block break-words font-['Raleway'] font-light text-[16px] leading-[1.6] text-[#1D1F22]">
+                    {product.title}
+                  </div>
+                  <span className="m-[0_16.4px_0_0.1px] break-words font-['Raleway'] font-medium text-[16px] leading-[1.6] text-[#1D1F22]">
+                    ${product.price}
+                  </span>
+                </div>
+                {/* size */}
+                <div className="m-[0_12px_8px_0] flex flex-col w-[fit-content] box-sizing-border">
+                  <div className="m-[0_0_8px_0] inline-block self-start break-words font-['Raleway'] font-normal text-[14px] leading-[1.143] text-[#1D1F22]">
+                    Size:
+                  </div>
+                  <div className="flex flex-row w-[fit-content] box-sizing-border">
+                    <button className="border-[1px_solid_#1D1F22] bg-[#1D1F22] relative m-[0_8px_0_0] flex flex-row justify-center p-[1px_8.4px_1px_8.4px] box-sizing-border">
+                      <span className="break-words font-['Source_Sans_Pro','Roboto_Condensed'] font-normal text-[14px] leading-[1.6] text-[#FFFFFF]">
+                        S
+                      </span>
+                    </button>
+                    <button className="border-[1px_solid_#1D1F22] bg-[rgba(255,255,255,0.2)] relative flex flex-row justify-center p-[1px_6.7px_1px_6.7px] box-sizing-border">
+                      <span className="break-words font-['Source_Sans_Pro','Roboto_Condensed'] font-normal text-[14px] leading-[1.6] text-[#1D1F22]">
+                        M
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="flex flex-col w-[fit-content] box-sizing-border">
+                  <div className="m-[0_0_8px_0] inline-block self-start break-words font-['Raleway'] font-normal text-[14px] leading-[1.143] text-[#1D1F22]">
+                    Color:
+                  </div>
+                  <div className="flex flex-row gap-[0_8px] w-[68px] box-sizing-border">
+                    <div className="relative flex flex-row justify-center p-[2px_2px_2px_2px] w-[20px] h-[20px] box-sizing-border">
+                      <div className="relative flex flex-row justify-center w-[16px] h-[16px] box-sizing-border">
+                        <div className="bg-[#1D1F22] w-[16px] h-[16px]">
+                        </div>
+                      </div>
+                      <button className="border-[1px_solid_#5ECE7B] absolute left-[50%] bottom-[0px] translate-x-[-50%] w-[20px] h-[20px]">
+                      </button>
+                    </div>
+                    <div className="m-[2px_0_2px_0] flex flex-row justify-center w-[16px] h-[16px] box-sizing-border">
+                      <button className="bg-[#15A4C3] w-[16px] h-[16px]">
+                      </button>
+                    </div>
+                    <div className="m-[2px_0_2px_0] flex flex-row justify-center w-[16px] h-[16px] box-sizing-border">
+                      <button className="bg-[#EA8120] w-[16px] h-[16px]">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center box-sizing-border">
+                <button onClick={() => handleIncreaseQuantity(product)}  className="m-[0_0_45px_0] w-[24px] h-[24px]">+</button>
+                <div className="m-[0_7.5px_45px_7.9px] inline-block break-words font-['Raleway'] font-medium text-[16px] leading-[1.6] text-[#1D1F22]">
+                  {product.quantity}
+                </div>
+                <div className="border-[1px_solid_gray-200] flex flex-row justify-center p-[11px_7px_10px_7px] w-[24px] h-[24px] box-sizing-border">
+                  <button onClick={() => handleDecreaseQuantity(product)}  className="bg-[#1D1F22] w-[8px] h-[1px]">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[url('')] w-[121px] h-[164px]">
+              <img src={product.image} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="m-[0_4px_0_0] flex flex-row justify-between w-[289px] box-sizing-border">
+          <div className="m-[9px_9px_0_0] inline-block w-[217.9px] break-words font-['Roboto'] font-medium text-[16px] leading-[1.125] text-[#1D1F22]">
+            Total
+          </div>
+          <div className="m-[0_0_1px_0] inline-block break-words font-['Raleway'] font-bold text-[16px] leading-[1.6] text-[#1D1F22]">
+            ${totalPrice}
+          </div>
+        </div>
+      </div>
+
+  ))}
+      
+      <div className="m-[0_0.5px_0_0.5px] flex flex-row justify-center w-[292px] box-sizing-border">
+        <button type="submit" className="bg-[var(--cprimary,#5ECE7B)] flex flex-row justify-center p-[13px_0_13px_0] w-[292px] h-[fit-content] box-sizing-border">
+          <span className="break-words font-['Raleway'] font-semibold text-[14px] leading-[1.2] uppercase text-[var(--cwhite,#FFFFFF)]">
+            PLACE ORDER
+          </span>
+        </button>
+      </div>
+  </div>
+  </div>

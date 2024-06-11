@@ -1,0 +1,1288 @@
+.cart-overlay .circle-icon {
+    rounded-[26px]
+    bg-[#5ECE7B]
+    absolute
+    right-[15px]
+    bottom-[0px]
+    flex
+    flex-row
+    justify-center
+    p-[15.4px_14px_15px_14px]
+    w-[52px]
+    h-[52px]
+    box-sizing-border
+   }
+   .cart-overlay .icon-empty-cart {
+    flex
+    flex-row
+    justify-center
+    w-[24px]
+    h-[21.6px]
+    box-sizing-border
+   }
+   .cart-overlay .vector {
+    w-[24px]
+    h-[21.6px]
+   }
+   .cart-overlay .content {
+    relative
+    flex
+    flex-col
+    box-sizing-border
+   }
+   .cart-overlay .title {
+    break-words
+    font-['Raleway']
+    font-light
+    text-[18px]
+    leading-[1.6]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .price {
+    m-[0_0.6px_0_0.6px]
+    flex
+    flex-row
+    justify-center
+    self-start
+    box-sizing-border
+   }
+   .cart-overlay .label {
+    break-words
+    font-['Raleway']
+    font-[var(--price-regular-font-font-weight,400)]
+    text-[18px]
+    leading-[var(--price-regular-font-line-height,1.6)]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .title-1 {
+    m-[0_101px_87.5px_101px]
+    inline-block
+    self-start
+    break-words
+    font-['Raleway']
+    font-[var(--heading-desktop-h-2-font-weight,400)]
+    text-[42px]
+    leading-[var(--heading-desktop-h-2-line-height,1.6)]
+    text-[var(--ctext,#1D1F22)]
+   }
+   .cart-overlay .header-desktop {
+    bg-[#FFFFFF]
+    relative
+    m-[0_0_80.5px_0]
+    flex
+    flex-row
+    justify-between
+    p-[25px_88px_0_101px]
+    w-[1440px]
+    box-sizing-border
+   }
+   .cart-overlay .actions {
+    absolute
+    right-[101px]
+    bottom-[27.8px]
+    flex
+    flex-row
+    justify-center
+    w-[20px]
+    h-[18px]
+    box-sizing-border
+   }
+   .cart-overlay .vector-4 {
+    w-[20px]
+    h-[18px]
+   }
+   .cart-overlay .navigation {
+    m-[3.5px_0_0_0]
+    flex
+    flex-row
+    box-sizing-border
+   }
+   .cart-overlay .header-elements-desktop-buttons {
+    m-[0_16.4px_0_0]
+    flex
+    flex-row
+    box-sizing-border
+   }
+   .cart-overlay .padding-left {
+    bg-[var(--cprimary,#5ECE7B)]
+    m-[49.5px_0_0_0]
+    w-[16px]
+    h-[2px]
+   }
+   .cart-overlay .label-1 {
+    flex
+    flex-col
+    items-center
+    box-sizing-border
+   }
+   .cart-overlay .label-2 {
+    m-[0_0.4px_30.5px_0.4px]
+    inline-block
+    break-words
+    font-['Raleway']
+    font-semibold
+    text-[16px]
+    leading-[1.2]
+    uppercase
+    text-[var(--cprimary,#5ECE7B)]
+   }
+   .cart-overlay .border {
+    bg-[var(--cprimary,#5ECE7B)]
+    w-[65px]
+    h-[2px]
+   }
+   .cart-overlay .padding-right {
+    bg-[var(--cprimary,#5ECE7B)]
+    m-[49.5px_0_0_0]
+    w-[16px]
+    h-[2px]
+   }
+   .cart-overlay .header-elements-desktop-buttons-1 {
+    m-[0_32.7px_32.5px_0]
+    flex
+    flex-row
+    justify-center
+    box-sizing-border
+   }
+   .cart-overlay .label-3 {
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[16px]
+    leading-[1.2]
+    uppercase
+    text-[var(--ctext,#1D1F22)]
+   }
+   .cart-overlay .header-elements-desktop-buttons-2 {
+    m-[0_0_32.5px_0]
+    flex
+    flex-row
+    justify-center
+    box-sizing-border
+   }
+   .cart-overlay .label-4 {
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[16px]
+    leading-[1.2]
+    uppercase
+    text-[var(--ctext,#1D1F22)]
+   }
+   .cart-overlay .alogo {
+    m-[4.4px_0_20.7px_0]
+    flex
+    flex-row
+    justify-center
+    w-[31.2px]
+    h-[29.9px]
+    box-sizing-border
+   }
+   .cart-overlay .group {
+    w-[31.2px]
+    h-[29.9px]
+   }
+   .cart-overlay .group-11 {
+    rounded-[60px]
+    bg-[#1D1F22]
+    relative
+    m-[0_0_35px_0]
+    flex
+    flex-row
+    justify-center
+    p-[2px_6px_2px_6px]
+    box-sizing-border
+   }
+   .cart-overlay .container {
+    break-words
+    font-['Roboto']
+    font-bold
+    text-[14px]
+    uppercase
+    text-[#FFFFFF]
+   }
+   .cart-overlay {
+    bg-[#FFFFFF]
+    flex
+    flex-col
+    p-[0_0_191px_0]
+    w-[1440px]
+    box-sizing-border
+   }
+   .cart-overlay .product-card-desktop {
+    relative
+    m-[16px_0_0_0]
+    flex
+    flex-row
+    justify-center
+    box-sizing-border
+   }
+   .cart-overlay .product-card-elements-desktop {
+    bg-[var(--cwhite,#FFFFFF)]
+    flex
+    flex-col
+    p-[16px_16px_16px_16px]
+    box-sizing-border
+   }
+   .cart-overlay .image {
+    m-[0_0_24px_0]
+    flex
+    flex-row
+    justify-center
+    w-[354px]
+    h-[330px]
+    box-sizing-border
+   }
+   .cart-overlay .image-1 {
+    relative
+    w-[354px]
+    h-[330px]
+   }
+   .cart-overlay .product-d {
+    bg-[url('assets/images/ProductD.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    absolute
+    top-[-31.4px]
+    right-[-422.8px]
+    w-[791.6px]
+    h-[361.4px]
+   }
+   .cart-overlay .content-1 {
+    flex
+    flex-col
+    self-start
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-2 {
+    break-words
+    font-['Raleway']
+    font-light
+    text-[18px]
+    leading-[1.6]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .price-1 {
+    m-[0_0.6px_0_0.6px]
+    flex
+    flex-row
+    justify-center
+    self-start
+    box-sizing-border
+   }
+   .cart-overlay .label-5 {
+    break-words
+    font-['Raleway']
+    font-[var(--price-regular-font-font-weight,400)]
+    text-[18px]
+    leading-[var(--price-regular-font-line-height,1.6)]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .product-card-desktop-1 {
+    m-[16px_0_0_0]
+    flex
+    flex-row
+    justify-center
+    box-sizing-border
+   }
+   .cart-overlay .product-card-elements-desktop-1 {
+    bg-[var(--cwhite,#FFFFFF)]
+    flex
+    flex-col
+    p-[16px_16px_16px_16px]
+    box-sizing-border
+   }
+   .cart-overlay .image-2 {
+    m-[0_0_24px_0]
+    flex
+    flex-row
+    justify-center
+    w-[354px]
+    h-[330px]
+    box-sizing-border
+   }
+   .cart-overlay .image-3 {
+    bg-[url('assets/images/ProductD.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    relative
+    w-[354px]
+    h-[330px]
+   }
+   .cart-overlay .product-b {
+    bg-[url('assets/images/ProductB.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    absolute
+    left-[-116.4px]
+    bottom-[-106.3px]
+    w-[581.8px]
+    h-[542.6px]
+   }
+   .cart-overlay .content-2 {
+    flex
+    flex-col
+    self-start
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-3 {
+    break-words
+    font-['Raleway']
+    font-light
+    text-[18px]
+    leading-[1.6]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .price-2 {
+    m-[0_0.6px_0_0.6px]
+    flex
+    flex-row
+    justify-center
+    self-start
+    box-sizing-border
+   }
+   .cart-overlay .label-6 {
+    break-words
+    font-['Raleway']
+    font-[var(--price-regular-font-font-weight,400)]
+    text-[18px]
+    leading-[var(--price-regular-font-line-height,1.6)]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .product-card-desktop-2 {
+    flex
+    flex-row
+    justify-center
+    box-sizing-border
+   }
+   .cart-overlay .product-card-elements-desktop-2 {
+    bg-[var(--cwhite,#FFFFFF)]
+    flex
+    flex-col
+    p-[16px_16px_16px_16px]
+    box-sizing-border
+   }
+   .cart-overlay .image-4 {
+    m-[0_0_24px_0]
+    flex
+    flex-row
+    justify-center
+    w-[354px]
+    h-[330px]
+    box-sizing-border
+   }
+   .cart-overlay .image-5 {
+    relative
+    w-[354px]
+    h-[330px]
+   }
+   .cart-overlay .product-d-2 {
+    bg-[url('assets/images/ProductD.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    absolute
+    top-[-31.4px]
+    right-[-422.8px]
+    w-[791.6px]
+    h-[361.4px]
+   }
+   .cart-overlay .content-3 {
+    flex
+    flex-col
+    self-start
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-4 {
+    break-words
+    font-['Raleway']
+    font-light
+    text-[18px]
+    leading-[1.6]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .price-3 {
+    m-[0_0.6px_0_0.6px]
+    flex
+    flex-row
+    justify-center
+    self-start
+    box-sizing-border
+   }
+   .cart-overlay .label-7 {
+    break-words
+    font-['Raleway']
+    font-[var(--price-regular-font-font-weight,400)]
+    text-[18px]
+    leading-[var(--price-regular-font-line-height,1.6)]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .product-card-desktop-3 {
+    flex
+    flex-row
+    justify-center
+    box-sizing-border
+   }
+   .cart-overlay .product-card-elements-desktop-3 {
+    bg-[var(--cwhite,#FFFFFF)]
+    flex
+    flex-col
+    p-[16px_16px_16px_16px]
+    box-sizing-border
+   }
+   .cart-overlay .image-6 {
+    m-[0_0_24px_0]
+    flex
+    flex-row
+    justify-center
+    w-[354px]
+    h-[330px]
+    box-sizing-border
+   }
+   .cart-overlay .image-7 {
+    relative
+    w-[354px]
+    h-[330px]
+   }
+   .cart-overlay .product-c {
+    bg-[url('assets/images/ProductC.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    absolute
+    right-[-285.2px]
+    bottom-[-286.5px]
+    w-[917.8px]
+    h-[897.9px]
+   }
+   .cart-overlay .content-4 {
+    flex
+    flex-col
+    self-start
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-5 {
+    break-words
+    font-['Raleway']
+    font-light
+    text-[18px]
+    leading-[1.6]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .price-4 {
+    m-[0_0.6px_0_0.6px]
+    flex
+    flex-row
+    justify-center
+    self-start
+    box-sizing-border
+   }
+   .cart-overlay .label-8 {
+    break-words
+    font-['Raleway']
+    font-[var(--price-regular-font-font-weight,400)]
+    text-[18px]
+    leading-[var(--price-regular-font-line-height,1.6)]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .product-card-desktop-4 {
+    flex
+    flex-row
+    justify-center
+    box-sizing-border
+   }
+   .cart-overlay .product-card-elements-desktop-4 {
+    bg-[var(--cwhite,#FFFFFF)]
+    flex
+    flex-col
+    p-[16px_16px_16px_16px]
+    box-sizing-border
+   }
+   .cart-overlay .image-8 {
+    m-[0_0_24px_0]
+    flex
+    flex-row
+    justify-center
+    w-[354px]
+    box-sizing-border
+   }
+   .cart-overlay .image-9 {
+    bg-[url('assets/images/ProductD.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[146.5px_1.6px_145.5px_0]
+    w-[354px]
+    h-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .product-c-1 {
+    bg-[url('assets/images/ProductC.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    absolute
+    top-[-281.4px]
+    right-[-285.2px]
+    w-[917.8px]
+    h-[897.9px]
+   }
+   .cart-overlay .rectangle-2135 {
+    opacity-50
+    bg-[#FFFFFF]
+    absolute
+    top-[-5px]
+    right-[-2px]
+    w-[356px]
+    h-[338px]
+   }
+   .cart-overlay .out-of-stock {
+    relative
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[24px]
+    leading-[1.6]
+    text-[#8D8F9A]
+   }
+   .cart-overlay .content-5 {
+    flex
+    flex-col
+    self-start
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-6 {
+    break-words
+    font-['Raleway']
+    font-light
+    text-[18px]
+    leading-[1.6]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .price-5 {
+    m-[0_0.6px_0_0.6px]
+    flex
+    flex-row
+    justify-center
+    self-start
+    box-sizing-border
+   }
+   .cart-overlay .label-9 {
+    break-words
+    font-['Raleway']
+    font-[var(--price-regular-font-font-weight,400)]
+    text-[18px]
+    leading-[var(--price-regular-font-line-height,1.6)]
+    text-[#8D8F9A]
+   }
+   .cart-overlay .product-card-desktop-5 {
+    w-[386px]
+    box-sizing-border
+   }
+   .cart-overlay .product-card-elements-desktop-5 {
+    shadow-[var(--product-card-box-shadowhover,0px_4px_35px_0px_rgba(168,172,176,0.19))]
+    bg-[var(--cwhite,#FFFFFF)]
+    relative
+    p-[370px_16px_16px_16px]
+    box-sizing-border
+   }
+   .cart-overlay .image-10 {
+    absolute
+    top-[16px]
+    right-[16px]
+    flex
+    flex-row
+    justify-center
+    p-[0_0_26px_0]
+    w-[354px]
+    h-[356px]
+    box-sizing-border
+   }
+   .cart-overlay .image-11 {
+    relative
+    w-[354px]
+    h-[330px]
+   }
+   .cart-overlay .product-a {
+    bg-[url('assets/images/ProductA.png')]
+    bg-[50%_50%]
+    bg-cover
+    bg-no-repeat
+    absolute
+    right-[-154.9px]
+    bottom-[0px]
+    w-[663.8px]
+    h-[330px]
+   }
+   .cart-overlay .frame-27 {
+    flex
+    flex-row
+    justify-center
+    w-[121px]
+    h-[167px]
+    box-sizing-border
+   }
+   .cart-overlay .product-d-4 {
+    bg-[url('assets/images/ProductD.png')]
+    w-[121px]
+    h-[167px]
+   }
+   .cart-overlay .container {
+    bg-[rgba(57,55,72,0.22)]
+    absolute
+    left-[0px]
+    right-[0px]
+    bottom-[0px]
+    flex
+    flex-row
+    justify-end
+    p-[0_72px_0_72px]
+    h-[1435px]
+    box-sizing-border
+   }
+   .cart-overlay .container-1 {
+    m-[0_102px_0_100px]
+    flex
+    flex-row
+    gap-[0_40px]
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .product-d-5 {
+    bg-[url('assets/images/ProductD.png')]
+    w-[121px]
+    h-[164px]
+   }
+   .cart-overlay .frame-10 {
+    flex
+    flex-row
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .frame-11 {
+    m-[0_0_32px_0]
+    flex
+    flex-col
+    items-center
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .frame-12 {
+    m-[0_0_33px_0]
+    flex
+    flex-col
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .frame-13 {
+    m-[0_0.5px_0_0.5px]
+    flex
+    flex-row
+    justify-center
+    w-[292px]
+    box-sizing-border
+   }
+   .cart-overlay .frame-14 {
+    bg-[#FFFFFF]
+    flex
+    flex-col
+    items-center
+    p-[32px_16px_32px_16px]
+    box-sizing-border
+   }
+   .cart-overlay .my-bag-3-items {
+    m-[0_0.4px_32px_0.4px]
+    self-start
+    break-words
+    font-['Raleway']
+    font-medium
+    text-[16px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .my-bag-3-items {
+    font-['Raleway']
+    font-medium
+    text-[16px]
+    leading-[1.333]
+    text-[#1D1F22]
+   }
+   .my-bag-3-items-sub4 {
+    font-['Raleway']
+    font-medium
+    text-[16px]
+    leading-[1.333]
+    text-[#1D1F22]
+   }
+   .my-bag-3-items-sub5 {
+    font-['Raleway']
+    font-bold
+    text-[16px]
+    leading-[1.333]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-16 {
+    flex
+    flex-col
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-7 {
+    m-[0_0_8px_0]
+    inline-block
+    self-start
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[14px]
+    leading-[1.143]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-15 {
+    flex
+    flex-row
+    gap-[0_8px]
+    w-[68px]
+    box-sizing-border
+   }
+   .cart-overlay .group-631 {
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[2px_2px_2px_2px]
+    w-[20px]
+    h-[20px]
+    box-sizing-border
+   }
+   .cart-overlay .group-406 {
+    relative
+    flex
+    flex-row
+    justify-center
+    w-[16px]
+    h-[16px]
+    box-sizing-border
+   }
+   .cart-overlay .rectangle-2138 {
+    bg-[#1D1F22]
+    w-[16px]
+    h-[16px]
+   }
+   .cart-overlay .button-elements-common {
+    bg-[var(--cprimary,#5ECE7B)]
+    flex
+    flex-row
+    justify-center
+    p-[13px_0_13px_0]
+    w-[292px]
+    h-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .rectangle-2141 {
+    border-[1px_solid_#5ECE7B]
+    absolute
+    left-[50%]
+    bottom-[0px]
+    translate-x-[-50%]
+    w-[20px]
+    h-[20px]
+   }
+   .cart-overlay .group-407 {
+    m-[2px_0_2px_0]
+    flex
+    flex-row
+    justify-center
+    w-[16px]
+    h-[16px]
+    box-sizing-border
+   }
+   .cart-overlay .rectangle-2139 {
+    bg-[#15A4C3]
+    w-[16px]
+    h-[16px]
+   }
+   .cart-overlay .group-408 {
+    m-[2px_0_2px_0]
+    flex
+    flex-row
+    justify-center
+    w-[16px]
+    h-[16px]
+    box-sizing-border
+   }
+   .cart-overlay .rectangle-21391 {
+    bg-[#EA8120]
+    w-[16px]
+    h-[16px]
+   }
+   .cart-overlay .label-10 {
+    break-words
+    font-['Raleway']
+    font-semibold
+    text-[14px]
+    leading-[1.2]
+    uppercase
+    text-[var(--cwhite,#FFFFFF)]
+   }
+   .cart-overlay .frame-161 {
+    flex
+    flex-col
+    self-start
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-8 {
+    m-[0_0_8px_0]
+    inline-block
+    self-start
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[14px]
+    leading-[1.143]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-151 {
+    flex
+    flex-row
+    gap-[0_8px]
+    w-[68px]
+    box-sizing-border
+   }
+   .cart-overlay .group-6311 {
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[2px_2px_2px_2px]
+    w-[20px]
+    h-[20px]
+    box-sizing-border
+   }
+   .cart-overlay .group-4061 {
+    relative
+    flex
+    flex-row
+    justify-center
+    w-[16px]
+    h-[16px]
+    box-sizing-border
+   }
+   .cart-overlay .rectangle-21381 {
+    bg-[#D3D2D5]
+    w-[16px]
+    h-[16px]
+   }
+   .cart-overlay .rectangle-21411 {
+    border-[1px_solid_#5ECE7B]
+    absolute
+    left-[50%]
+    bottom-[0px]
+    translate-x-[-50%]
+    w-[20px]
+    h-[20px]
+   }
+   .cart-overlay .group-4071 {
+    m-[2px_0_2px_0]
+    flex
+    flex-row
+    justify-center
+    w-[16px]
+    h-[16px]
+    box-sizing-border
+   }
+   .cart-overlay .rectangle-21392 {
+    bg-[#2B2B2B]
+    w-[16px]
+    h-[16px]
+   }
+   .cart-overlay .group-4081 {
+    m-[2px_0_2px_0]
+    flex
+    flex-row
+    justify-center
+    w-[16px]
+    h-[16px]
+    box-sizing-border
+   }
+   .cart-overlay .rectangle-21393 {
+    bg-[#0F6450]
+    w-[16px]
+    h-[16px]
+   }
+   .cart-overlay .label-11 {
+    m-[0_8px_46.5px_9.2px]
+    inline-block
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[16px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .title-9 {
+    m-[0_0_4px_0]
+    inline-block
+    break-words
+    font-['Raleway']
+    font-light
+    text-[18px]
+    leading-[1.6]
+    text-[var(--cblack,#1D1F22)]
+   }
+   .cart-overlay .label-12 {
+    m-[0_1px_0_1px]
+    self-start
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[16px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .plus-square {
+    m-[0_0_46.5px_0]
+    w-[24px]
+    h-[24px]
+   }
+   .cart-overlay .minus-square {
+    border-[1px_solid_#1D1F22]
+    flex
+    flex-row
+    justify-center
+    p-[11px_7px_10px_7px]
+    w-[24px]
+    h-[24px]
+    box-sizing-border
+   }
+   .cart-overlay .vector-10 {
+    bg-[#1D1F22]
+    w-[8px]
+    h-[1px]
+   }
+   .cart-overlay .group-405 {
+    m-[0_4px_0_0]
+    flex
+    flex-row
+    justify-between
+    w-[289px]
+    box-sizing-border
+   }
+   .cart-overlay .total {
+    m-[9px_9px_0_0]
+    inline-block
+    w-[217.9px]
+    break-words
+    font-['Roboto']
+    font-medium
+    text-[16px]
+    leading-[1.125]
+    text-[#1D1F22]
+   }
+   .cart-overlay .container-1 {
+    m-[0_0_1px_0]
+    inline-block
+    break-words
+    font-['Raleway']
+    font-bold
+    text-[16px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-3 {
+    m-[0_3.6px_8px_0]
+    flex
+    flex-col
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .frame-4 {
+    flex
+    flex-col
+    items-center
+    box-sizing-border
+   }
+   .cart-overlay .group-4062 {
+    border-[1px_solid_#1D1F22]
+    bg-[#1D1F22]
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[1px_8.4px_1px_8.4px]
+    box-sizing-border
+   }
+   .cart-overlay .s {
+    break-words
+    font-['Source_Sans_Pro','Roboto_Condensed']
+    font-normal
+    text-[14px]
+    leading-[1.6]
+    text-[#FFFFFF]
+   }
+   .cart-overlay .group-4072 {
+    border-[1px_solid_#1D1F22]
+    bg-[rgba(255,255,255,0.2)]
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[1px_4.5px_1px_4.5px]
+    box-sizing-border
+   }
+   .cart-overlay .xs {
+    break-words
+    font-['Source_Sans_Pro','Roboto_Condensed']
+    font-normal
+    text-[14px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .title-10 {
+    m-[0_0_8px_0]
+    inline-block
+    self-start
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[14px]
+    leading-[1.143]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-5 {
+    flex
+    flex-row
+    gap-[0_8px]
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .frame-6 {
+    m-[0_0_8px_0]
+    flex
+    flex-col
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .frame-7 {
+    m-[0_20px_0_0]
+    flex
+    flex-col
+    box-sizing-border
+   }
+   .cart-overlay .frame-8 {
+    m-[0_8px_0_0]
+    flex
+    flex-row
+    box-sizing-border
+   }
+   .cart-overlay .frame-9 {
+    m-[0_0_40px_0]
+    flex
+    flex-row
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .frame-81 {
+    m-[0_8px_0_0]
+    flex
+    flex-row
+    box-sizing-border
+   }
+   .cart-overlay .frame-71 {
+    m-[0_72px_0_0]
+    flex
+    flex-col
+    items-center
+    box-sizing-border
+   }
+   .cart-overlay .frame-31 {
+    m-[0_1.6px_8px_0]
+    flex
+    flex-col
+    items-center
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-11 {
+    m-[0_0_4px_0]
+    inline-block
+    break-words
+    font-['Raleway']
+    font-light
+    text-[16px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .label-13 {
+    m-[0_16.4px_0_0.1px]
+    break-words
+    font-['Raleway']
+    font-medium
+    text-[16px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-61 {
+    m-[0_12px_8px_0]
+    flex
+    flex-col
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .title-12 {
+    m-[0_0_8px_0]
+    inline-block
+    self-start
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[14px]
+    leading-[1.143]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-51 {
+    flex
+    flex-row
+    w-[fit-content]
+    box-sizing-border
+   }
+   .cart-overlay .group-4063 {
+    border-[1px_solid_#1D1F22]
+    bg-[#1D1F22]
+    relative
+    m-[0_8px_0_0]
+    flex
+    flex-row
+    justify-center
+    p-[1px_8.4px_1px_8.4px]
+    box-sizing-border
+   }
+   .cart-overlay .s-1 {
+    break-words
+    font-['Source_Sans_Pro','Roboto_Condensed']
+    font-normal
+    text-[14px]
+    leading-[1.6]
+    text-[#FFFFFF]
+   }
+   .cart-overlay .group-4073 {
+    border-[1px_solid_#1D1F22]
+    bg-[rgba(255,255,255,0.2)]
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[1px_6.7px_1px_6.7px]
+    box-sizing-border
+   }
+   .cart-overlay .m {
+    break-words
+    font-['Source_Sans_Pro','Roboto_Condensed']
+    font-normal
+    text-[14px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .frame-41 {
+    flex
+    flex-col
+    items-center
+    box-sizing-border
+   }
+   .cart-overlay .label-14 {
+    m-[0_0_0_0.9px]
+    self-center
+    break-words
+    font-['Raleway']
+    font-normal
+    text-[14px]
+    leading-[1.143]
+    text-[#1D1F22]
+   }
+   .cart-overlay .plus-square-1 {
+    m-[0_0_45px_0]
+    w-[24px]
+    h-[24px]
+   }
+   .cart-overlay .label-15 {
+    m-[0_7.5px_45px_7.9px]
+    inline-block
+    break-words
+    font-['Raleway']
+    font-medium
+    text-[16px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .minus-square-1 {
+    border-[1px_solid_#1D1F22]
+    flex
+    flex-row
+    justify-center
+    p-[11px_7px_10px_7px]
+    w-[24px]
+    h-[24px]
+    box-sizing-border
+   }
+   .cart-overlay .vector-13 {
+    bg-[#1D1F22]
+    w-[8px]
+    h-[1px]
+   }
+   .cart-overlay .group-4082 {
+    border-[1px_solid_#1D1F22]
+    bg-[rgba(255,255,255,0.2)]
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[1px_6.7px_1px_6.7px]
+    box-sizing-border
+   }
+   .cart-overlay .m-1 {
+    break-words
+    font-['Source_Sans_Pro','Roboto_Condensed']
+    font-normal
+    text-[14px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .group-409 {
+    border-[1px_solid_#1D1F22]
+    bg-[rgba(255,255,255,0.2)]
+    relative
+    flex
+    flex-row
+    justify-center
+    p-[1px_8.7px_1px_8.7px]
+    box-sizing-border
+   }
+   .cart-overlay .l {
+    break-words
+    font-['Source_Sans_Pro','Roboto_Condensed']
+    font-normal
+    text-[14px]
+    leading-[1.6]
+    text-[#1D1F22]
+   }
+   .cart-overlay .container-2 {
+    m-[0_102px_103px_100px]
+    flex
+    flex-row
+    gap-[0_40px]
+    w-[fit-content]
+    box-sizing-border
+   }

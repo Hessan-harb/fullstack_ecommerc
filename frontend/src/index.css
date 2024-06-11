@@ -1,0 +1,30 @@
+/* img{
+  width: 100%;
+  height: 450px;
+} */
+
+.flow-root img{
+  width: 100%;
+  height: 100%;
+}
+.you-hover{
+  cursor: pointer;
+  position: relative;
+}
+.you-hover::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  left: 0;
+  bottom: -25px;
+  width: 0;
+  background: orangered;
+  transition: width .2s;  
+}
+.you-hover:hover::after {
+  width: 100%;
+}
+.image-half{
+    height: 80%;
+    width: 80%;
+}
